@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 240, 240);
+    align-items: center;
+    /* position: fixed; */
+    width: 100%;
+    /* top: 0;
+    left: 0; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+.list li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+    font-family: cursive;
+    cursor: pointer;
+}
+.list li:hover {
+    color: slateblue;
+    border-bottom: 1px solid slateblue;
+}
+.landing {
+    background-image: url("./wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass.jpg");
+    height: 700px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.landing-img {
+    height: 400px;
+    color: white;
+    margin-top: 200px;
+    font-family: cursive;
+    text-align: center;
+}
+.landing-img h3,
+button {
+    margin-top: 60px;
+}
+.btn-style {
+    border-radius: 25px;
+    background-color: #2b0060;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    transition: 0.2s ease-in-out;
+}
+.btn:active {
+    background-color: #230549;
+    scale: 1.1;
+}
+/* .section2 {
+    display: flex;
+} */
+
+.black {
+    background-image: url("./black-img.jpg");
+    height: 650px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.sunset {
+    background-image: url("./sunset-img.jpg");
+    height: 650px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.hide {
+    height: 0;
+    /* overflow: hidden; */
+    transition: 0.7s ease-in-out;
+}
+.black:hover .hide {
+    height: 100px;
+}
+.sunset:hover .hide {
+    height: 100px;
+}
+.input {
+    margin: auto;
+    display: block;
+    width: 35%;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+}
+.center {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+/* .section3 {
+    display: flex;
+} */
+.bridge {
+    background-image: url(./bridge-img.jpg);
+    height: 650px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.lifeblock {
+    background-image: url(./lifeblock-img.jpg);
+    height: 650px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.bridge:hover .hide {
+    height: 100px;
+}
+.lifeblock:hover .hide {
+    height: 100px;
+}
+
+/* .section4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+} */
+.section4 div {
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+.share {
+    background-image: url("./share-img.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.water {
+    background-image: url("./water-img.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.world {
+    background-image: url("./world-img.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.share1 {
+    background-image: url("./share1.img.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.share2 {
+    background-image: url("./share2.img.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.share3 {
+    background-image: url("./share3.img.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.input1 {
+    margin: auto;
+    display: block;
+    font-size: small;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #230549;
+    color: white;
+}
+.fontIcon i {
+    font-size: 30px;
+    padding: 10px;
+}
